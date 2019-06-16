@@ -34,3 +34,6 @@
 
 $router->get('api/alumnos', 'PostController@index');
 $router->get('api/usuarios', 'UsuarioController@index');
+$router->get('api/propuestas', 'PropuestaController@index');
+$router->get('api/votos', 'VotacionController@store');
+
